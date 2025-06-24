@@ -1,3 +1,5 @@
+!["todo-app"](./src/src/Screenshot 2025-06-24 180717.png)
+
 # React Todo List App
 
 A simple and interactive Todo List application built with React. This project demonstrates essential React concepts such as state management with hooks (`useState`, `useEffect`), event handling, and working with browser localStorage to persist data.
