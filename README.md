@@ -1,12 +1,52 @@
-# React + Vite
+# React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo List application built with React. This project demonstrates essential React concepts such as state management with hooks (`useState`, `useEffect`), event handling, and working with browser localStorage to persist data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add new todo items with a title.
+- Mark todos as completed or pending using checkboxes.
+- Delete todo items from the list.
+- Persist todos in the browser’s localStorage so data is saved across page reloads.
+- Real-time UI updates reflecting the current todo list state.
+- Clean and minimal user interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React (Functional components and hooks)
+- JavaScript (ES6+)
+- CSS for styling
+- Browser localStorage for data persistence
+
+---
+
+## How It Works
+
+- The app initializes the todo list from localStorage if available.
+- Users can add new todos via a controlled input form.
+- Each todo can be toggled between completed and not completed.
+- Todos can be deleted individually.
+- Any changes to the todo list are saved automatically to localStorage.
+
+---
+
+## Getting Started
+
+1. **Clone the repository**
+git clone https://github.com/thaanis-off/todo-app.git
+
+2. **Navigate to the project directory**
+cd todo-app
+
+3. **Install dependencies**
+npm i
+
+4. **Start the development server**
+npm run dev
+
+
+
